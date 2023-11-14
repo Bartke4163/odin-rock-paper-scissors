@@ -14,7 +14,6 @@
 
 body {
     height: 100vh;
-    background-color: grey;
     background-image: url(/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
