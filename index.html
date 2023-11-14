@@ -4,13 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <script src="index.js"></script>
-    <style>
-      body {
-        background-color: grey;
-      }
-    </style>
+    <div class="main">
+      <div class="head">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <h2>FIRST TO 5 POINTS WINS!</h2>
+      </div>
+      <div class="history-list">
+        
+        <ol id="historyList">
+
+        </ol>
+      </div>
+      <div class="content">
+       
+        <div class="choices">
+          <h2 id="player-text">PLAYER:</h2>
+          <h2 id="computer-text">COMPUTER:</h2>
+        </div> 
+        <div class="outcome">
+
+          <h2 id="outcome-text">OUTCOME:</h2>
+          <p class="end"></p>
+        </div>
+        <div class="score">
+
+          <h3 id="player-score">Player score:</h3>
+          <h3 id="computer-score">Computer score:</h3>
+        </div>       
+        <h3 id="game-result"></h3>
+        
+        <div class="button-div">
+          <div class="button-container">
+            <img src="images/rock.png">
+            <button class="buttons" id="rock-button">ROCK</button>
+          </div>
+          <div class="button-container">
+            <img src="images/paper.png">
+            <button class="buttons" id="paper-button">PAPER</button>
+          </div>
+          <div class="button-container">
+            <img src="images/scissors.png">
+            <button class="buttons" id="scissors-button">SCISSORS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="restart-button">
+    <button class="restart">RESTART THE GAME!</button>
+  </div>
+  <script src="index.js"></script>
   </body>
 </html>
